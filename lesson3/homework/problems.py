@@ -1,7 +1,7 @@
 # Problem 1
 # Ask the user to enter a number.
 # Print "Even" if the number is divisible by 2, otherwise print "Odd".
-nums = input("Enter a number")
+nums = int(input("Enter a number"))
 if nums % 2 == 0:
     print("Even")
 else:
@@ -21,8 +21,10 @@ else:
 # Generate a random number between 1 and 10 (inclusive).
 # Ask the user to guess the number.
 # Print "Correct!" if the guess matches the random number, else print "Try again!".
+import random
+guess_number = random.randint(0,10)
 number = int(input("Enter a number"))
-if number == 6:
+if number == guess_number:
     print("You got the right number")
 else:
     print("You got the number ")
