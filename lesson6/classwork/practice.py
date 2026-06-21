@@ -1,7 +1,7 @@
 # Problem 1
 # Count and print how many time "dog" appears in the list.
 pets = ["dog", "cat", "dog", "hamster", "dog", "parrot"]
-print(pets)
+
 
 
 
@@ -15,14 +15,14 @@ print(numbers)
 # Problem 3
 # Search for "monkey" in the list and print its index if it's found.
 zoo = ["lion", "elephant", "monkey", "giraffe", "zebra"]
-print(zoo)
+print("its found"))
 
 
 
 # Problem 4
 # Search for 99 in the list and print if it’s found.
 numbers = [10, 45, 32, 99, 60, 5]
-print(numbers)
+print("its found")
 
 
 
