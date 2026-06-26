@@ -15,7 +15,7 @@ print(numbers)
 # Problem 3
 # Search for "monkey" in the list and print its index if it's found.
 zoo = ["lion", "elephant", "monkey", "giraffe", "zebra"]
-print("its found"))
+print("its found")
 
 
 
